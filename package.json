@@ -7,8 +7,10 @@
     "license": "BSD-3-Clause",
     "licenseFile": "LICENSE",
     "dependencies": {
+        "base" : ">= 1.0.0"
     },
-    "exportedModules": [ "Language.Go.Types", "Language.Go.Show" ],
+    "exportedModules": [ "Language.Go.Types", "Language.Go.Show",
+                         "Language.Go.ShowS" ],
     "source": {
         "git": "https://git.ps.informatik.uni-kiel.de/curry-packages/golang.git",
         "tag": "$version"
